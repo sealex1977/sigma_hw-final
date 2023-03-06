@@ -5,7 +5,7 @@ import ModernInteriorImage from '../../assets/img/moderninterior/modern-interior
 
 function ModernInterior() {
     return (
-        <div className="modern-interior__container">
+        <section className="modern-interior__container">
             <div className="modern-interior__inner">
                 <div className="modern-interior__content">
                     <div className="modern-interior__subtitle">
@@ -27,7 +27,7 @@ function ModernInterior() {
                 </div>
             </div>
             <div className="modern-interior__decor"></div>
-        </div>
+        </section>
     )
 }
 

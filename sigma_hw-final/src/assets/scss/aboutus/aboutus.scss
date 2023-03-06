@@ -1,3 +1,96 @@
-.about-us__wrapper{
-    background-color: orange;
+$mock-up-width: 1952.36;
+// $pop-up-width: 1240;
+// $mobile-width: 767.98;
+$vw: $mock-up-width/100vw;
+$text-color: #646464;
+
+.about-us{
+    &__container{
+        position: relative;
+        width: 1404.42/$vw;
+        margin-top: 143.16/$vw;
+        margin-bottom: 198.86/$vw;
+        margin-left: 130/$vw;
+    }
+    &__inner{
+        display: flex;
+        gap: 129.59/$vw;
+    }
+    &__content{
+        width: 546/$vw;
+
+    }
+    &__subtitle{
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 20/$vw;
+        line-height: 30/$vw;
+        color: $text-color;
+        margin-bottom: 59/$vw;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 48/$vw;
+        line-height: 57/$vw;
+        color: #212121;
+        margin-bottom: .86/$vw;
+    }
+    &__text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 30/$vw;
+        color: $text-color;
+        margin-bottom: 45.06/$vw;
+    }
+    &__btn{
+        display: block;
+        width: 141.92/$vw;
+        height: 41.93/$vw;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 16/$vw;
+        line-height: 24/$vw;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #37806B;
+        border-radius: 20/$vw 0px;
+        transition: .5s;
+        &:hover{
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+    }
+    &__image{
+        position: relative;
+    }
+    &__img{
+        width: 679.9/$vw;
+        border-radius: 140/$vw 0;
+        position: relative;
+        z-index: 10;
+    }
+    &__image-decor{
+        position: absolute;
+        top: -31.35/$vw;
+        left: -35.94/$vw;
+        width: 679.9/$vw;
+        height: 711.19/$vw;
+        border: 2/$vw solid #B0855B;
+        border-radius: 140/$vw 0;
+    }
+    &__decor{
+        background-color: chartreuse;
+        position: absolute;
+        left: -46/$vw;
+        bottom: -225.43/$vw;
+        width: 212.21/$vw;
+        height: 150.42/$vw;
+        background-image: url('../../img/aboutus/abot-us-decor.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
