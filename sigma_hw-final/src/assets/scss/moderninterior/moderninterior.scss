@@ -1,0 +1,96 @@
+$mock-up-width: 1952.36;
+// $pop-up-width: 1240;
+// $mobile-width: 767.98;
+$vw: $mock-up-width/100vw;
+$text-color: #646464;
+
+.modern-interior{
+    &__container{
+        position: relative;
+        width: 1659.32/$vw;
+        margin-top: 92.08/$vw;
+        margin-bottom: 143.48/$vw;
+    }
+    &__inner{
+        // width: 635.42/$vw;
+        margin-left: 156/$vw;
+        display: flex;
+        gap: 13.53/$vw;
+    }
+    &__content{
+        width: 635.42/$vw;
+
+    }
+    &__subtitle{
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 20/$vw;
+        line-height: 27/$vw;
+        color: $text-color;
+        margin-bottom: 13.28/$vw;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 72/$vw;
+        line-height: 78/$vw;
+        color: #212121;
+        margin-bottom: 25.44/$vw;
+    }
+    &__text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 30/$vw;
+        color: $text-color;
+        margin-bottom: 50.89/$vw;
+    }
+    &__btn{
+        display: block;
+        width: 149.06/$vw;
+        height: 47.36/$vw;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 18/$vw;
+        line-height: 24/$vw;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #37806B;
+        border-radius: 20/$vw 0px;
+        transition: .5s;
+        &:hover{
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+    }
+    &__image{
+        position: relative;
+    }
+    &__img{
+        width: 715.85/$vw;
+        border-radius: 140/$vw 0;
+        position: relative;
+        z-index: 10;
+    }
+    &__image-decor{
+        position: absolute;
+        top: 32.33/$vw;
+        left: 34.94/$vw;
+        width: 714.85/$vw;
+        height: 613.23/$vw;
+        border: 2/$vw solid #B0855B;
+        border-radius: 140/$vw 0;
+    }
+    &__decor{
+        position: absolute;
+        left: -146/$vw;
+        bottom: -193.52/$vw;
+        width: 212.21/$vw;
+        height: 150.42/$vw;
+        background-image: url('../../img/moderninterior/modern-interior-decor.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

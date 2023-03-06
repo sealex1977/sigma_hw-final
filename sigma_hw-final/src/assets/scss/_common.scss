@@ -1,6 +1,11 @@
 $font-main: 'Open Sans', sans-serif;
 $primary-color: #212121;
 
+$mock-up-width: 1952.36;
+$pop-up-width: 1240;
+$mobile-width: 767.98;
+$vw: $mock-up-width/100vw;
+
 html {
     font-family: $font-main;
     // background-color: #f0efefd0;
