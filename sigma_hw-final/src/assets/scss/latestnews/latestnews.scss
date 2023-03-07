@@ -1,0 +1,95 @@
+.latest-news{
+    &__container{
+        width: 1379/$vw;
+        margin-top: 238/$vw;
+        margin-bottom: 202.57/$vw;
+        position: relative;
+    }
+    &__subtitle{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 20/$vw;
+        line-height: 28/$vw;
+        text-transform: uppercase;
+        color: $text-color;
+        text-align: center;
+        margin-bottom: 21/$vw;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 48/$vw;
+        line-height: 28/$vw;
+        color: #111111;
+        text-align: center;
+        margin-bottom: 82/$vw;
+    }
+    &__content{
+        display: flex;
+        gap: 136/$vw;
+    }
+    &__card-image{
+        position: relative;
+    }
+    &__img{
+        width: 554/$vw;
+        border-radius: 100/$vw 0;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 59.76/$vw;
+    }
+    &__image-decor{
+        position: absolute;
+        width: 554/$vw;
+        height: 386/$vw;
+        top: 30/$vw;
+        left: 30/$vw;
+        border: 2px solid $decor-color;
+        border-radius: 100/$vw 0;
+    }
+    &__card-title{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 30/$vw;
+        line-height: 28/$vw;
+        color: $primary-color;
+        margin-bottom: 17/$vw;
+    }
+    &__card-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        color: $text-color;
+        margin-bottom: 45/$vw;
+    }
+    &__btn{
+        display: block;
+        width: 271/$vw;
+        height: 53.06/$vw;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $btn-color;
+        border-radius: 20/$vw 0px;
+        transition: .5s;
+        &:hover{
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+    }
+    &__decor{
+        position: absolute;
+        right: -260/$vw;
+        bottom: -180/$vw;
+        width: 212.55/$vw;
+        height: 153.55/$vw;
+        background-image: url('../../img/latestnews/latest-news-decor.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

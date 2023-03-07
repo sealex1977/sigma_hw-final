@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import CompletedWorkx from './components/CompletedWork/CompletedWork';
 import CompletedWork from './components/CompletedWork/CompletedWork';
 import Testimonials from './components/Testimonials/Testimonials';
+import LatestNews from './components/LatestNews/LatestNews';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <SuccessfulWorking />
       <CompletedWork />
       <Testimonials />
+      <LatestNews />
       <Footer />
     </div>
   );
