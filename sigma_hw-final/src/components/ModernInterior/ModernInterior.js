@@ -1,5 +1,5 @@
 // import React, { useState, useRef, useEffect } from "react";
-import ModernInteriorImage from '../../assets/img/moderninterior/modern-interior-image.png'
+import ModernInteriorImage from '../../assets/img/moderninterior/modern-interior-image.png';
 
 // import { Link } from "react-router-dom";
 

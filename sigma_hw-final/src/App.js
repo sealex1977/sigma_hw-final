@@ -2,8 +2,10 @@ import './assets/scss/style.scss';
 
 import Header from './components/Header/Header';
 import ModernInterior from './components/ModernInterior/ModernInterior';
-import Footer from './components/Footer/Footer';
 import AboutUs from './components/AboutUs/AboutUs';
+import SuccessfulWorking from './components/SuccessfulWorking/SuccessfulWorking'
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
       <Header />
       <ModernInterior />
       <AboutUs />
-
+      <SuccessfulWorking />
       <Footer />
     </div>
   );
