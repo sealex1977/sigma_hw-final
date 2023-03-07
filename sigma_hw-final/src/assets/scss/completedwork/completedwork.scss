@@ -1,0 +1,94 @@
+$mock-up-width: 1952.36;
+// $pop-up-width: 1240;
+// $mobile-width: 767.98;
+$vw: $mock-up-width/100vw;
+$text-color: #646464;
+
+.completed-work{
+    &__container{
+        position: relative;
+        width: 1343/$vw;
+        margin-top: 266.22/$vw;
+        margin-bottom: 238/$vw;
+        // margin-left: 130/$vw;
+    }
+    &__text{
+        width: 825/$vw;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 48/$vw;
+        line-height: 60/$vw;
+        text-align: center;
+        margin: 0 auto 87/$vw;
+        color: #212121;
+    }
+    &__content{
+        width: 1343/$vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__box{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 185/$vw;
+        height: 182/$vw;
+        box-shadow: 0px 13/$vw 16/$vw rgba(0, 0, 0, 0.1);
+        border-radius: 40/$vw 0px;
+        &:nth-child(even) {
+            margin-top: 96/$vw;
+        }
+    }
+    &__box-text{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 50/$vw;
+        line-height: 60/$vw;
+        color: #212121;
+    }
+    &__box-text span{
+        display: block;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 18/$vw;
+        line-height: 30/$vw;
+        color: $text-color;
+    }
+    &__decor{
+        position: absolute;
+        left: -282/$vw;
+        bottom: -182/$vw;
+        width: 212.55/$vw;
+        height: 153.55/$vw;
+        background-image: url('../../img/completedwork/completed-work-decor.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__box-vector{
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 155/$vw;
+        height: 76/$vw;
+        left: 185/$vw;
+    }
+}
+.vector1{
+    background-image: url('../../img/completedwork/completed-work-vector1.svg');
+    top: 85/$vw;
+}
+.vector2{
+    background-image: url('../../img/completedwork/completed-work-vector2.svg');
+    top: 36/$vw;
+}
+.vector3{
+    background-image: url('../../img/completedwork/completed-work-vector3.svg');
+    top: 85/$vw;
+}
