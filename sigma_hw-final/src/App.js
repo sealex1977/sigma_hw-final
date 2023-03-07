@@ -7,6 +7,7 @@ import SuccessfulWorking from './components/SuccessfulWorking/SuccessfulWorking'
 import Footer from './components/Footer/Footer';
 import CompletedWorkx from './components/CompletedWork/CompletedWork';
 import CompletedWork from './components/CompletedWork/CompletedWork';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <AboutUs />
       <SuccessfulWorking />
       <CompletedWork />
+      <Testimonials />
       <Footer />
     </div>
   );

@@ -1,16 +1,9 @@
-$mock-up-width: 1952.36;
-// $pop-up-width: 1240;
-// $mobile-width: 767.98;
-$vw: $mock-up-width/100vw;
-$text-color: #646464;
-
 .completed-work{
     &__container{
         position: relative;
         width: 1343/$vw;
         margin-top: 266.22/$vw;
         margin-bottom: 238/$vw;
-        // margin-left: 130/$vw;
     }
     &__text{
         width: 825/$vw;
@@ -20,7 +13,7 @@ $text-color: #646464;
         line-height: 60/$vw;
         text-align: center;
         margin: 0 auto 87/$vw;
-        color: #212121;
+        color: $primary-color;
     }
     &__content{
         width: 1343/$vw;
@@ -49,7 +42,7 @@ $text-color: #646464;
         font-weight: 700;
         font-size: 50/$vw;
         line-height: 60/$vw;
-        color: #212121;
+        color: $primary-color;
     }
     &__box-text span{
         display: block;

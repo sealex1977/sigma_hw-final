@@ -1,0 +1,117 @@
+.testimonials{
+    &__container{
+        width: 1379/$vw;
+        margin-top: 238/$vw;
+        margin-bottom: 338/$vw;
+        position: relative;
+    }
+    &__subtitle{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 20/$vw;
+        line-height: 30/$vw;
+        text-transform: uppercase;
+        color: $text-color;
+        text-align: center;
+        margin-bottom: 3/$vw;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 48/$vw;
+        line-height: 72/$vw;
+        color: $primary-color;
+        text-align: center;
+        margin-bottom: 99/$vw;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 84/$vw;
+    }
+    &__card{
+        width: 632/$vw;
+        display: flex;
+        gap: 30/$vw;
+        position: relative;
+    }
+    &__card-image{
+        width: 130/$vw;
+        border-radius: 35/$vw 0;
+    }
+    &__card-title{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24/$vw;
+        line-height: 33/$vw;
+        color: $primary-color;
+        margin-bottom: 8/$vw;
+    }
+    &__card-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        color: $text-color;
+    }
+    &__quotes{
+        position: absolute;
+        top: -30/$vw;
+        right: 0;
+        font-family: 'Basic Sans SF';
+        font-weight: 700;
+        font-size: 96/$vw;
+        line-height: 109/$vw;
+        color: $decor-color;
+    }
+    &__card-wrapper{
+        position: absolute;
+        top: -45/$vw;
+        left: 55/$vw;
+        width: 605/$vw;
+        height: 226/$vw;
+        box-shadow: 7/$vw 7/$vw 30/$vw 5/$vw rgba(66, 96, 84, 0.15);
+        border-radius: 70/$vw 0;
+    }
+    &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 30/$vw;
+        height: 29/$vw;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: -1/$vw 3/$vw 10/$vw rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+    &__arrow{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $text-color;
+        width: 4/$vw;
+        height: 8/$vw;
+    }
+}
+.card-wrapper{
+        left: 105/$vw;
+}
+.left-btn{
+    background-image: url('../../img/testimonials/testimonials-button-left.svg');
+    top: 90/$vw;
+    right: 0;
+}
+.left-arrow{
+    background-image: url('../../img/testimonials/testimonials-vector-left.svg');
+}
+.right-btn{
+    background-image: url('../../img/testimonials/testimonials-button-right.svg');
+    top: 90/$vw;
+    right: -80/$vw;
+}
+.right-arrow{
+    background-image: url('../../img/testimonials/testimonials-vector-right.svg');
+}   
