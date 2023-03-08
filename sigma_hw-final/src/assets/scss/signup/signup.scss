@@ -1,0 +1,77 @@
+.sign-up{
+    &__container{
+        width: 772/$vw;
+        margin-top: 202.57/$vw;
+        margin-bottom: 185/$vw;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 48/$vw;
+        line-height: 28/$vw;
+        letter-spacing: 0.08em;
+        color: $primary-color;
+        margin-bottom: 77/$vw;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        text-align: center;
+        color: $text-color;
+        width: 647/$vw;
+        margin: 0 auto 36/$vw;
+    }
+    &__form-user{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 107/$vw;
+        margin-bottom: 58/$vw;
+    }
+    &__input{
+        background: #EEEEEE;
+        border-radius: 20/$vw 0;
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 18/$vw;
+        line-height: 55/$vw;
+        padding-left: 40/$vw;
+        color: $text-color;
+    }
+    &__input-name{
+        width: 317/$vw;
+        height: 48/$vw;
+    }
+    &__input-surname{
+        width: 338/$vw;
+        height: 48/$vw;
+    }
+    &__input-email{
+        width: 772/$vw;
+        height: 50/$vw;
+        margin-bottom: 92/$vw;
+    }
+    &__btn{
+        display: block;
+        width: 180/$vw;
+        height: 50/$vw;
+        margin: 0 auto;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $btn-color;
+        border-radius: 0 0 20/$vw 0;
+        transition: .5s;
+        &:hover{
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+    }
+}

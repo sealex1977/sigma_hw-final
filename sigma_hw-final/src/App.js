@@ -5,10 +5,10 @@ import ModernInterior from './components/ModernInterior/ModernInterior';
 import AboutUs from './components/AboutUs/AboutUs';
 import SuccessfulWorking from './components/SuccessfulWorking/SuccessfulWorking'
 import Footer from './components/Footer/Footer';
-import CompletedWorkx from './components/CompletedWork/CompletedWork';
 import CompletedWork from './components/CompletedWork/CompletedWork';
 import Testimonials from './components/Testimonials/Testimonials';
 import LatestNews from './components/LatestNews/LatestNews';
+import SignUp from './components/SignUp/SignUp';
 
 
 
@@ -22,6 +22,7 @@ function App() {
       <CompletedWork />
       <Testimonials />
       <LatestNews />
+      <SignUp />
       <Footer />
     </div>
   );
