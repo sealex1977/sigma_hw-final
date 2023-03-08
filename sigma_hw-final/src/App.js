@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './assets/scss/style.scss';
 
 import Header from './components/Header/Header';
@@ -15,6 +17,10 @@ import SignUp from './components/SignUp/SignUp';
 function App() {
   return (
     <div className="wrapper">
+      <BrowserRouter>
+        <Routes>
+        </Routes>
+      </BrowserRouter>
       <Header />
       <ModernInterior />
       <AboutUs />

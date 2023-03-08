@@ -1,11 +1,14 @@
-// import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Logo from "../../assets/img/header/logo.svg";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div className="header__container">
+            {/* <Link>
+                <img className="header__logo-img" src={Logo} alt="logo" />
+            </Link> */}
             <div className="header__logo">
                 <img className="header__logo-img" src={Logo} alt="logo" />
             </div>

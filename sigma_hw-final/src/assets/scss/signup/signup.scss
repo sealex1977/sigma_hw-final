@@ -1,7 +1,6 @@
 .sign-up{
     &__container{
         width: 772/$vw;
-        margin-top: 202.57/$vw;
         margin-bottom: 185/$vw;
     }
     &__title{
@@ -11,9 +10,14 @@
         line-height: 28/$vw;
         letter-spacing: 0.08em;
         color: $primary-color;
-        margin-bottom: 77/$vw;
+        margin-bottom: 37/$vw;
         text-align: center;
         text-transform: uppercase;
+    }
+    &__line{
+        width: 461/$vw;
+        border: 1px solid #c4c4c4;
+        margin: 0 auto 40/$vw;
     }
     &__text{
         font-family: 'Open Sans';

@@ -1,3 +1,98 @@
-.footer__wrapper{
-    background-color: purple;
+.footer{
+    width: 1952/$vw;
+    &__container{
+        position: relative;
+        width: 1343/$vw;
+        margin: 0 auto;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    &__logo-img{
+        width: 151/$vw;
+        margin-bottom: 15/$vw;
+        cursor: pointer;
+    }
+    &__text{
+        width: 350/$vw;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        color: $text-color;
+        cursor: pointer;
+    }
+    &__title{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 24/$vw;
+        line-height: 40/$vw;
+        color: $primary-color;
+        margin-bottom: 10/$vw;
+    }
+    &__quick-links,
+    &__company,
+    &__contact-us{
+        display: flex;
+        flex-direction: column;
+        gap: 10/$vw;
+        margin-bottom: 69/$vw;
+    }
+    &__quick-links{
+        width: 182/$vw;
+    }
+    &__company{
+        width: 144/$vw;
+    }
+    &__contact-us{
+        width: 200/$vw;
+    }
+    &__social{
+        text-align: center;
+    }
+    &__social-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8/$vw;
+    }
+    &__social-icon{
+        width: 37.17/$vw;
+        height: 37.17/$vw;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    &__line{
+        border: 1px solid #c4c4c4;
+        margin-bottom: 15/$vw;
+    }
+    &__copyright{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 25/$vw;
+        color: $text-color;
+        margin-top: 15/$vw;
+        margin-bottom: 25/$vw;
+        text-align: center;
+    }
+    &__copyright span{
+        color: $btn-color;
+    }
+}
+.facebook{
+    background-image: url('../../img/footer/facebook-icon.svg');
+}
+.twitter{
+    background-image: url('../../img/footer/twitter-icon.svg');
+}
+.instagram{
+    background-image: url('../../img/footer/instagram-icon.svg');
+}
+.linkedin{
+    background-image: url('../../img/footer/linkedin-icon.svg');
 }

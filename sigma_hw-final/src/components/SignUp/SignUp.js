@@ -2,6 +2,7 @@ function SignUp() {
     return (
         <section className="sign-up__container">
             <div className="sign-up__title">don't forget to sign up</div>
+            <div className="sign-up__line"></div>
             <div className="sign-up__text">
                 Find out early about all upcoming promotions and new product releases with our newsletter.
             </div>
