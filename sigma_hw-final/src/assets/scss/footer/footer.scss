@@ -65,6 +65,7 @@
         background-position: center;
         background-repeat: no-repeat;
         cursor: pointer;
+        transition: .5s;
     }
     &__line{
         border: 1px solid #c4c4c4;
@@ -86,13 +87,25 @@
 }
 .facebook{
     background-image: url('../../img/footer/facebook-icon.svg');
+    &:hover{
+        background-image: url('../../img/footer/facebook-icon-hovered.svg');
+    }
 }
 .twitter{
     background-image: url('../../img/footer/twitter-icon.svg');
+    &:hover{
+        background-image: url('../../img/footer/twitter-icon-hovered.svg');
+    }
 }
 .instagram{
     background-image: url('../../img/footer/instagram-icon.svg');
+    &:hover{
+        background-image: url('../../img/footer/instagram-icon-hovered.svg');
+    }
 }
 .linkedin{
     background-image: url('../../img/footer/linkedin-icon.svg');
+    &:hover{
+        background-image: url('../../img/footer/linkedin-icon-hovered.svg');
+    }
 }
