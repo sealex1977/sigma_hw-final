@@ -11,6 +11,7 @@ import CompletedWork from './components/CompletedWork/CompletedWork';
 import Testimonials from './components/Testimonials/Testimonials';
 import LatestNews from './components/LatestNews/LatestNews';
 import SignUp from './components/SignUp/SignUp';
+import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 
 
 
@@ -23,6 +24,7 @@ function App() {
       </BrowserRouter>
       <Header />
       <ModernInterior />
+      <WhatWeDo />
       <AboutUs />
       <SuccessfulWorking />
       <CompletedWork />

@@ -84,6 +84,17 @@
     &__copyright span{
         color: $btn-color;
     }
+    &__decor{
+        position: absolute;
+        left: -280/$vw;
+        top: -190/$vw;
+        width: 212.55/$vw;
+        height: 153.55/$vw;
+        background-image: url('../../img/footer/footer-decor.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 .facebook{
     background-image: url('../../img/footer/facebook-icon.svg');

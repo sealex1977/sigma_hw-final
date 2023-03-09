@@ -49,6 +49,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+                <div className="footer__decor"></div>
             </div>
             <div className="footer__line"></div>
             <div className="footer__copyright">

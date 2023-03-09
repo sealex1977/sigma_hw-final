@@ -1,0 +1,23 @@
+.what-we-do{
+    &__container{
+        position: relative;
+        margin-bottom: 400/$vw;
+    }
+    &__subtitle{
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 20/$vw;
+        line-height: 28/$vw;
+        letter-spacing: -0.01em;
+        color: $text-color;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 48/$vw;
+        line-height: 78/$vw;
+        color: $primary-color;
+        margin-bottom: 25.44/$vw;
+    }
+}
