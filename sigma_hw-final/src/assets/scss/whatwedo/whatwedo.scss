@@ -1,6 +1,7 @@
 .what-we-do{
     &__container{
         position: relative;
+        width: 1340/$vw;
         margin-bottom: 400/$vw;
     }
     &__subtitle{
@@ -20,4 +21,81 @@
         color: $primary-color;
         margin-bottom: 25.44/$vw;
     }
+    &__buttons{
+        display: flex;
+        align-items: center;
+        gap: 70/$vw;
+        margin-bottom: 110.69/$vw;
+    }
+    &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 206.67/$vw;
+        height: 46.04/$vw;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 16/$vw;
+        line-height: 78/$vw;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $btn-color;
+        border-radius: 20/$vw;
+        transition: .5s;
+        &:hover{
+            transition: 0.5s;
+            color: $btn-color;
+            background-color: #fff;
+            border: 5/$vw solid $btn-color;
+        }
+    }
+    &__content{
+        display: flex;
+        align-items: center;
+        gap: 90/$vw;
+    }
+    &__service{
+        display: flex;
+        gap: 20/$vw;
+        width: 477.23/$vw;
+        background: #FFFFFF;
+        box-shadow: 0 8/$vw 20/$vw rgba(0, 0, 0, 0.14);
+        border-radius: 60/$vw 0;
+        padding: 25/$vw;
+    }
+    &__service-icon{
+        width: 100/$vw;
+        height: 60/$vw;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &__service-title{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24/$vw;
+        line-height: 30/$vw;
+        color: $primary-color;
+    }
+    &__service-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18/$vw;
+        line-height: 28/$vw;
+        letter-spacing: -0.01em;
+        color: $text-color;
+    }
+}
+.decored{
+    background-color: #CAA892;
+    color: #fff;
+}
+.icon1{
+    background-image: url('../../img/whatwedo/icon1.svg');
+}
+.icon2{
+    background-image: url('../../img/whatwedo/icon2.svg');
+}
+.icon3{
+    background-image: url('../../img/whatwedo/icon3.svg');
 }
